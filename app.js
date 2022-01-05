@@ -1,4 +1,4 @@
-const { app, Tray, Menu, BrowserWindow } = require('electron');
+const { app, Tray, Menu } = require('electron');
 const ip = require('ip');
 const path = `${ __dirname }/icon.png`;
 
