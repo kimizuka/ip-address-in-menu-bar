@@ -22,7 +22,5 @@ app.on('ready', () => {
 });
 
 function render() {
-  const address = ip.address();
-
-  tray.setTitle(address);
+  tray.setTitle(ip.address());
 }
