@@ -1,0 +1,17 @@
+{
+  "name": "ip-address-in-menu-bar",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . IP --platform=darwin --arch=x64"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^16.0.1",
+    "electron-packager": "^15.4.0"
+  },
+  "dependencies": {
+    "ip": "^1.1.5"
+  }
+}
