@@ -24,6 +24,5 @@ app.on('ready', () => {
 function render() {
   const address = ip.address();
 
-  tray.setToolTip(address);
   tray.setTitle(address);
 }
